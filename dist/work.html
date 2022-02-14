@@ -170,7 +170,10 @@
       </div>
     </div>
   </main>
-  <footer id="main-footer">Copyright &copy; 2021</footer>
+  <footer id="main-footer">Copyright &copy; <script>
+      document.write(/\d{4}/.exec(Date())[0])
+    </script>
+  </footer>
   <script src="js/main.js"></script>
 </body>
 
